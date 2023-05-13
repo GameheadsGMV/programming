@@ -64,5 +64,9 @@ public class Move : MonoBehaviour
             
             rb.AddForce(jumpForce, ForceMode.Impulse);
         }
+
+        Vector3 angularVelocity = rb.angularVelocity;
+        angularVelocity.y = 0.0f;
+        rb.angularVelocity = angularVelocity;
     }
 }

@@ -292,8 +292,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 4339995171622384488, guid: 9179ed6733d8c0a44819f96f0c8e5201, type: 3}
+  target: {fileID: 720599387}
   spawnTime: 1
   bulletForce: 10
+  targetSpeed: 1
 --- !u!1001 &621455202
 PrefabInstance:
   m_ObjectHideFlags: 0
